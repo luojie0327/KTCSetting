@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <com.ktc.setting.view.custom.SettingViewContainer
+        android:id="@+id/others_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="173dp">
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/others_bluetooth_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            app:right_arrow_visible="true"
+            app:title="@string/str_others_bluetooth_title" />
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/others_tts_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/others_bluetooth_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            app:right_arrow_visible="true"
+            app:title="@string/str_others_tts_title" />
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/others_account_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/others_tts_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            app:right_arrow_visible="true"
+            app:title="@string/str_others_account_title" />
+
+        <com.ktc.setting.view.custom.SwitchSettingView
+            android:id="@+id/others_system_sound_switch"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/others_account_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            app:title="@string/str_others_system_sound_title"
+            android:visibility="gone"/>
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/others_log_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/others_system_sound_switch"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            android:visibility="gone"
+            app:right_arrow_visible="true"
+            app:title="@string/str_others_log_title" />
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/others_reboot_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/others_log_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            app:title="@string/str_others_reboot_title" />
+    </com.ktc.setting.view.custom.SettingViewContainer>
+
+</RelativeLayout>

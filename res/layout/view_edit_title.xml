@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_edit_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:gravity="center"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="@dimen/textSizeSettingViewNormal"/>
+
+    <EditText
+        android:id="@+id/title_edit_view_value"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_toEndOf="@id/title_edit_view_title"
+        android:cursorVisible="true"
+        android:gravity="center|start"
+        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+        android:lines="1"
+        android:nextFocusRight="@+id/show_password"
+        android:nextFocusForward="@id/title_edit_view_value"
+        android:paddingEnd="54dp"
+        android:singleLine="true"
+        android:textColor="@color/ed_text_color_selector"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/textSizeSettingViewNormal"
+        android:theme="@style/EditStyle"/>
+
+    <CheckBox
+        android:id="@+id/show_password"
+        android:layout_width="28dp"
+        android:layout_height="20dp"
+        android:layout_alignEnd="@id/title_edit_view_value"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="13dp"
+        android:button="@drawable/show_pwd_selector"
+        android:checked="false"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        android:nextFocusLeft="@id/title_edit_view_value"/>
+</RelativeLayout>

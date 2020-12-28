@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/edit_button_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:gravity="center"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="21sp"/>
+
+    <EditText
+        android:id="@+id/edit_button_value"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:background="@null"
+        android:gravity="end|center"
+        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+        android:maxWidth="600dp"
+        android:maxLines="1"
+        android:nextFocusLeft="@id/edit_button_value"
+        android:nextFocusRight="@id/edit_button_value"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textColor="@color/colorTextNormal"
+        android:textColorHint="@color/gray"
+        android:textCursorDrawable="@null"
+        android:textColorHighlight="@color/colorTextHighlight"
+        android:textSize="21sp"/>
+</merge>

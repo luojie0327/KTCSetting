@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ktc.setting.view.custom.PickerView
+        android:id="@+id/language_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="213dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:dividerHeight="130"
+        app:dividerNumberDrawable="@drawable/gradient_vertical"
+        app:dividerWidth="621"
+        app:lineHeight1="128"
+        app:lineHeight2="82"
+        app:lineHeight3="75"
+        app:textAlpha1="255"
+        app:textAlpha2="255"
+        app:textAlpha3="127.5"
+        app:textAlpha4="51"
+        app:textSize1="66"
+        app:textSize2="50"
+        app:textSize3="40"
+        app:textSize4="30"/>
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="67dp"
+        android:layout_marginTop="67dp"
+        android:layout_alignParentEnd="true"
+        android:text="@string/str_universal_select_tip"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="25sp"/>
+</RelativeLayout>

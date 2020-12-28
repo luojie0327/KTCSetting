@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/normalViewWidth"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:clipChildren="false">
+
+    <TextView
+        android:id="@+id/restore_tips_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/str_update_restore_tip_title"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/restore_tips_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/restore_tips_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/str_update_restore_tip_content"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="28sp"/>
+
+    <ImageView
+        android:id="@+id/restore_divider_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/restore_tips_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/gradient_vertical"/>
+
+    <Button
+        android:id="@+id/restore_now_button"
+        style="@style/ButtonStyle"
+        android:layout_width="280dp"
+        android:layout_height="87dp"
+        android:layout_below="@id/restore_divider_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/str_update_restore_now"
+        android:textSize="22sp"/>
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="false">
+
+    <EditText
+        android:id="@+id/universal_device_name_edit_text"
+        android:layout_width="400dp"
+        android:layout_height="@dimen/normalViewHeight"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="226dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:imeOptions="actionDone"
+        android:lineSpacingExtra="13dp"
+        android:lines="1"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:theme="@style/EditStyle"/>
+
+    <Button
+        android:id="@+id/universal_device_name_save_btn"
+        style="@style/ButtonStyle"
+        android:layout_width="220dp"
+        android:layout_height="73dp"
+        android:layout_below="@id/universal_device_name_edit_text"
+        android:layout_alignStart="@id/universal_device_name_edit_text"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/str_universal_device_name_save">
+
+    </Button>
+</RelativeLayout>

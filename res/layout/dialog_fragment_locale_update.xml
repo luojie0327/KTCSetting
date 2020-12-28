@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/normalViewWidth"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:clipChildren="false">
+
+    <TextView
+        android:id="@+id/update_tips_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/str_update_locale_tip_title"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="32sp"/>
+
+    <ImageView
+        android:id="@+id/update_divider_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_tips_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/gradient_vertical"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_divider_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialog_locale_update_cancel_btn"
+            style="@style/ButtonStyle"
+            android:layout_width="153dp"
+            android:layout_height="67dp"
+            android:text="@string/str_others_bluetooth_disconnect_cancel"/>
+
+        <Button
+            android:id="@+id/dialog_locale_update_ok_btn"
+            style="@style/ButtonStyle"
+            android:layout_width="153dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="100dp"
+            android:text="@string/str_others_bluetooth_disconnect_ok"/>
+    </LinearLayout>
+</RelativeLayout>

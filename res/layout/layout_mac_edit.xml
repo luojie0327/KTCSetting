@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mCurTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_common_margin"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="@dimen/dimen_common_margin"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/mCurMacEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/dimen_common_margin"
+        android:background="@null"
+        android:enabled="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/mInputTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_common_margin"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/mInputMacEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/dimen_common_margin"
+        android:hint="例如:0c8c24bf219a"
+        android:maxLength="12"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/color_et_normal"
+        android:textSize="24sp"
+        android:theme="@style/KEditText"/>
+</LinearLayout>

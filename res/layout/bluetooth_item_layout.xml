@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ktc.setting.view.custom.ButtonSettingView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bluetooth_item_btn"
+    android:layout_width="@dimen/normalViewWidth"
+    android:layout_height="60dp"
+    android:layout_centerHorizontal="true"
+    app:right_arrow_visible="true"
+    app:settingIcon="@drawable/bluetooth_icon">
+
+</com.ktc.setting.view.custom.ButtonSettingView>

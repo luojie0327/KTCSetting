@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bluetooth_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <com.ktc.setting.view.custom.SettingViewContainer
+        android:id="@+id/bluetooth_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="173dp"
+        android:clipChildren="true"
+        android:clipToPadding="false"
+        android:descendantFocusability="afterDescendants">
+
+        <com.ktc.setting.view.custom.SwitchSettingView
+            android:id="@+id/bluetooth_switch"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            app:title="@string/str_others_bluetooth_title" />
+
+        <TextView
+            android:id="@+id/bluetooth_paired_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/bluetooth_switch"
+            android:layout_below="@id/bluetooth_switch"
+            android:layout_marginTop="15dp"
+            android:text="@string/str_others_bluetooth_paired_title"
+            android:textColor="@color/colorTextNormal"
+            android:textSize="24sp" />
+
+        <com.ktc.setting.view.custom.MaxHeightRecyclerView
+            android:id="@+id/bluetooth_paired_list_view"
+            android:layout_width="697dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bluetooth_paired_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:clipToPadding="false"
+            android:paddingEnd="15dp"
+            android:paddingStart="15dp"
+            app:maxHeight="124dp"/>
+
+        <TextView
+            android:id="@+id/bluetooth_can_pair_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/bluetooth_switch"
+            android:layout_below="@id/bluetooth_paired_list_view"
+            android:layout_marginTop="15dp"
+            android:text="@string/str_others_bluetooth_can_pair_title"
+            android:textColor="@color/colorTextNormal"
+            android:textSize="24sp" />
+
+        <RelativeLayout
+            android:id="@+id/bluetooth_scan_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_below="@id/bluetooth_can_pair_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/bluetooth_scan_bar_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/str_others_bluetooth_scan_tips"
+                android:textColor="@color/colorTextNormal"
+                android:textSize="30sp" />
+
+            <com.ktc.setting.view.custom.CustomLoadingView
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@id/bluetooth_scan_bar_text"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/bluetooth_scan_bar_text"
+                android:gravity="bottom" />
+        </RelativeLayout>
+
+        <com.ktc.setting.view.custom.MaxHeightRecyclerView
+            android:id="@+id/bluetooth_can_pair_list_view"
+            android:layout_width="697dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bluetooth_scan_bar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:clipToPadding="false"
+            android:paddingEnd="15dp"
+            android:paddingStart="15dp"
+            app:maxHeight="124dp">
+
+        </com.ktc.setting.view.custom.MaxHeightRecyclerView>
+
+        <Button
+            android:id="@+id/bluetooth_scan_btn"
+            style="@style/ButtonStyle"
+            android:layout_width="220dp"
+            android:layout_height="73dp"
+            android:layout_below="@id/bluetooth_can_pair_list_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:text="@string/str_others_bluetooth_scan" />
+    </com.ktc.setting.view.custom.SettingViewContainer>
+
+    <LinearLayout
+        android:id="@+id/bluetooth_wait_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:translationZ="1dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_others_bluetooth_enable_tips"
+            android:textColor="@color/colorTextNormal"
+            android:textSize="35sp" />
+
+        <com.ktc.setting.view.custom.CustomLoadingView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="5dp"
+            android:gravity="bottom" />
+    </LinearLayout>
+</RelativeLayout>

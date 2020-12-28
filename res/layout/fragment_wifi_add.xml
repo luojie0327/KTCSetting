@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/name_container"
+        android:layout_width="460dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="193dp">
+
+        <TextView
+            android:id="@+id/title_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:gravity="center"
+            android:text="@string/title_hotpot_name"
+            android:textColor="@color/colorTextNormal"
+            android:textSize="@dimen/textSizeSettingViewNormal"/>
+
+        <EditText
+            android:id="@+id/et_wifi_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_toEndOf="@id/title_1"
+            android:cursorVisible="true"
+            android:gravity="center|start"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:inputType="textNoSuggestions"
+            android:lines="1"
+            android:nextFocusForward="@id/et_hotpot_name"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:textColor="@color/ed_text_color_selector"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/textSizeSettingViewNormal"
+            android:theme="@style/EditStyle"/>
+    </RelativeLayout>
+
+    <com.ktc.setting.view.custom.LittleSwitchView
+        android:id="@+id/switch_wifi_security"
+        android:layout_width="460dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="27dp"
+        app:title="@string/title_security_type"
+        app:value="@array/security_type_add"/>
+
+    <com.ktc.setting.view.custom.TitleEditView
+        android:id="@+id/input_wifi_pwd"
+        android:layout_width="460dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="27dp"
+        app:enable="false"
+        app:passwordType="true"
+        app:title="@string/title_password"/>
+
+    <Button
+        android:id="@+id/button_save"
+        style="@style/ButtonStyle"
+        android:layout_width="220dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/network_save"/>
+</LinearLayout>

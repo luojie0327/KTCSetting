@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ktc.setting.view.custom.SelectSettingView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/account_select"
+    android:layout_width="@dimen/normalViewWidth"
+    android:layout_height="@dimen/normalViewHeight">
+
+</com.ktc.setting.view.custom.SelectSettingView>

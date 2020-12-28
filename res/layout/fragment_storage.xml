@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="false">
+
+    <com.ktc.setting.view.custom.SettingViewContainer
+        android:id="@+id/storage_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="173dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/storage_list"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/storage_format_btn"
+            style="@style/ButtonStyle"
+            android:layout_width="220dp"
+            android:layout_height="73dp"
+            android:layout_below="@id/storage_list"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/str_universal_storage_format"/>
+    </com.ktc.setting.view.custom.SettingViewContainer>
+</RelativeLayout>

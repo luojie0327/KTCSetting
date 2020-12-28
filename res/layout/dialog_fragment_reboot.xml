@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="533dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:clipChildren="false">
+
+    <TextView
+        android:id="@+id/reboot_tips_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/str_others_reboot_tip_title"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="33.3sp"/>
+
+    <ImageView
+        android:id="@+id/reboot_divider_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reboot_tips_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/gradient_vertical"/>
+
+    <Button
+        android:id="@+id/reboot_now_button"
+        style="@style/ButtonStyle"
+        android:layout_width="220dp"
+        android:layout_height="73dp"
+        android:layout_below="@id/reboot_divider_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/str_others_reboot_tip_text"
+        android:textSize="28sp"/>
+</RelativeLayout>

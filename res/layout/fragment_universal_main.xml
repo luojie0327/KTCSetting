@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    tools:context=".view.universal.UniversalActivity">
+
+    <com.ktc.setting.view.custom.SettingViewContainer
+        android:id="@+id/universal_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="173dp">
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/universal_device_name_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_centerHorizontal="true"
+            app:right_arrow_visible="true"
+            app:title="@string/str_universal_device_name"
+            app:value="@string/str_universal_device_name_default" />
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/universal_time_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/universal_device_name_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            app:right_arrow_visible="true"
+            app:title="@string/str_universal_time" />
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/universal_language_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/universal_time_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            android:visibility="gone"
+            app:right_arrow_visible="true"
+            app:title="@string/str_universal_language" />
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/universal_security_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/universal_language_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            android:visibility="gone"
+            app:right_arrow_visible="true"
+            app:title="@string/str_universal_security" />
+
+        <com.ktc.setting.view.custom.SwitchSettingView
+            android:id="@+id/universal_security_switch"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/universal_security_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            android:visibility="gone"
+            app:title="@string/str_universal_security" />
+
+        <com.ktc.setting.view.custom.SwitchSettingView
+            android:id="@+id/universal_inputmethod_switch"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/universal_security_switch"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            app:title="@string/str_universal_inputmethod" />
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/universal_storage_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/universal_inputmethod_switch"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            app:right_arrow_visible="true"
+            app:title="@string/str_universal_storage" />
+    </com.ktc.setting.view.custom.SettingViewContainer>
+</RelativeLayout>

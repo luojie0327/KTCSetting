@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="false">
+
+    <com.ktc.setting.view.custom.SettingViewContainer
+        android:id="@+id/date_time_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="173dp">
+
+        <com.ktc.setting.view.custom.SwitchSettingView
+            android:id="@+id/date_time_auto_get_switch"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="63dp"
+            android:layout_centerHorizontal="true"
+            app:title="@string/str_universal_time_auto">
+
+        </com.ktc.setting.view.custom.SwitchSettingView>
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/date_time_timezone_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="63dp"
+            android:layout_below="@id/date_time_auto_get_switch"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            app:right_arrow_visible="true"
+            app:title="@string/str_universal_timezone"/>
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/date_time_time_setting_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="63dp"
+            android:layout_below="@id/date_time_timezone_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            app:right_arrow_visible="true"
+            app:title="@string/str_universal_time_setting"/>
+
+        <com.ktc.setting.view.custom.SwitchSettingView
+            android:id="@+id/date_time_date_format_switch"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="63dp"
+            android:layout_below="@id/date_time_time_setting_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            android:visibility="gone"
+            app:title="@string/str_universal_time_date_format"/>
+
+        <com.ktc.setting.view.custom.SwitchSettingView
+            android:id="@+id/date_time_24h_switch"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="63dp"
+            android:layout_below="@id/date_time_date_format_switch"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            app:title="@string/str_universal_time_time_24h"/>
+    </com.ktc.setting.view.custom.SettingViewContainer>
+</RelativeLayout>

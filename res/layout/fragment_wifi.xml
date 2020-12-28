@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <com.ktc.setting.view.custom.SettingViewContainer
+        android:id="@+id/wifi_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp">
+
+        <com.ktc.setting.view.custom.SwitchSettingView
+            android:id="@+id/switch_wifi"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="13dp"
+            app:title="@string/title_wifi"
+            app:value="@array/switch_array"/>
+
+        <com.ktc.setting.view.custom.MaxHeightRecyclerView
+            android:id="@+id/list_wifi"
+            android:layout_width="695dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/switch_wifi"
+            android:layout_centerHorizontal="true"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:visibility="gone"
+            app:maxHeight="340dp"/>
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/button_add_wifi"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/list_wifi"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            app:settingIcon="@drawable/add_wifi"
+            app:title="@string/title_add_wifi"/>
+
+        <ProgressBar
+            android:id="@+id/wifi_progress_bar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@id/switch_wifi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:indeterminateTint="#fff"
+            android:indeterminateTintMode="src_atop"
+            android:visibility="gone"/>
+    </com.ktc.setting.view.custom.SettingViewContainer>
+</RelativeLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+    <ScrollView
+        android:id="@+id/about_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="173dp"
+        android:layout_marginBottom="75dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scrollbars="none">
+
+        <com.ktc.setting.view.custom.SettingViewContainer
+            android:id="@+id/about_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <TextView
+                android:id="@+id/about_device_info_title"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_about_device_info_title"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <com.ktc.setting.view.custom.ButtonSettingView
+                android:id="@+id/about_device_name_btn"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="53dp"
+                android:layout_below="@id/about_device_info_title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+                app:title="@string/str_about_device_name" />
+
+            <com.ktc.setting.view.custom.ButtonSettingView
+                android:id="@+id/about_device_model_btn"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="53dp"
+                android:layout_below="@id/about_device_name_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1.3dp"
+                app:title="@string/str_about_device_model" />
+
+            <com.ktc.setting.view.custom.ButtonSettingView
+                android:id="@+id/about_ddr_info_btn"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="53dp"
+                android:layout_below="@id/about_device_model_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1.3dp"
+                app:title="@string/str_about_device_ddr_info" />
+
+            <com.ktc.setting.view.custom.ButtonSettingView
+                android:id="@+id/about_android_version_btn"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="53dp"
+                android:layout_below="@id/about_ddr_info_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1.3dp"
+                app:title="@string/str_about_device_android_version" />
+	    <com.ktc.setting.view.custom.ButtonSettingView
+                android:id="@+id/about_ota_version_btn"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="53dp"
+                android:layout_below="@id/about_android_version_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1.3dp"
+                app:title="@string/str_about_device_ota_version" />
+
+
+            <com.ktc.setting.view.custom.ButtonSettingView
+                android:id="@+id/about_system_version_btn"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="53dp"
+                android:layout_below="@id/about_ota_version_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1.3dp"
+                android:visibility="gone"
+                app:title="@string/str_about_device_system_version" />
+
+            <com.ktc.setting.view.custom.ButtonSettingView
+                android:id="@+id/about_update_time_btn"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="53dp"
+                android:layout_below="@id/about_system_version_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1.3dp"
+                app:title="@string/str_about_device_update_time" />
+
+            <TextView
+                android:id="@+id/about_network_info_title"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_update_time_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="@string/str_about_network_info_title"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <com.ktc.setting.view.custom.ButtonSettingView
+                android:id="@+id/about_ethernet_mac_btn"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="53dp"
+                android:layout_below="@id/about_network_info_title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+                app:title="@string/title_ethernet" />
+
+            <com.ktc.setting.view.custom.ButtonSettingView
+                android:id="@+id/about_wifi_mac_btn"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="53dp"
+                android:layout_below="@id/about_ethernet_mac_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1.3dp"
+                app:title="@string/title_wifi" />
+
+            <TextView
+                android:id="@+id/about_license_info_title"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_wifi_mac_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="@string/str_about_others_title"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <com.ktc.setting.view.custom.ButtonSettingView
+                android:id="@+id/about_license_btn"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="53dp"
+                android:layout_below="@id/about_license_info_title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="13.5dp"
+                app:right_arrow_visible="true"
+                app:title="@string/str_about_license" />
+        </com.ktc.setting.view.custom.SettingViewContainer>
+    </ScrollView>
+</LinearLayout>

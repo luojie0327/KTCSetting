@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="false">
+
+    <com.ktc.setting.view.custom.SettingViewContainer
+        android:id="@+id/update_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="173dp">
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/update_system_restore_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_centerHorizontal="true"
+            app:title="@string/str_update_restore"/>
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/update_network_upgrade_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/update_system_restore_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            app:title="@string/str_update_network_upgrade"/>
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/update_locale_upgrade_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/update_network_upgrade_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            app:title="@string/str_update_locale_upgrade"/>
+    </com.ktc.setting.view.custom.SettingViewContainer>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/switch_setting_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/switch_setting_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxWidth="240dp"
+        android:singleLine="true"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="@dimen/textSizeSettingViewNormal" />
+
+    <ImageView
+        android:id="@+id/switch_setting_view_right_arrow"
+        android:layout_width="18dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="30dp"
+        android:focusable="false"
+        android:paddingStart="5dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="10dp"
+        android:src="@drawable/switch_right" />
+
+    <com.ktc.setting.view.custom.MarqueeTextView
+        android:id="@+id/switch_setting_view_value"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_toStartOf="@id/switch_setting_view_right_arrow"
+        android:gravity="center"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxWidth="100dp"
+        android:singleLine="true"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="@dimen/textSizeSettingViewNormal" />
+
+    <ImageView
+        android:id="@+id/switch_setting_view_left_arrow"
+        android:layout_width="18dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/switch_setting_view_value"
+        android:focusable="false"
+        android:paddingStart="5dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="10dp"
+        android:src="@drawable/switch_left" />
+</RelativeLayout>

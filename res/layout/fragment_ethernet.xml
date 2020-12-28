@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+    <com.ktc.setting.view.custom.SettingViewContainer
+        android:id="@+id/ethernet_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="173dp">
+
+        <com.ktc.setting.view.custom.SwitchSettingView
+            android:id="@+id/switch_ethernet_hdcp"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_centerHorizontal="true"
+            app:title="@string/title_auto_connect"
+            app:value="@array/switch_array"/>
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/button_ethernet_manually"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/switch_ethernet_hdcp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            app:right_arrow_visible="true"
+            app:title="@string/title_connect_manually"
+            app:value="@string/network_off"/>
+
+    </com.ktc.setting.view.custom.SettingViewContainer>
+</LinearLayout>

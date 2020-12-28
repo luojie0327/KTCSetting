@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    tools:context=".view.network.NetworkActivity">
+
+    <com.ktc.setting.view.custom.SettingViewContainer
+        android:id="@+id/container_network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp">
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/button_wifi"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_centerHorizontal="true"
+            app:right_arrow_visible="true"
+            app:title="@string/title_wifi"
+            app:value="@string/network_not_connected"/>
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/button_ethernet"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/button_wifi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            app:right_arrow_visible="true"
+            app:title="@string/title_ethernet"
+            app:value="@string/network_not_connected"/>
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/button_hotpot"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/button_ethernet"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            app:right_arrow_visible="true"
+            app:title="@string/title_hotpot"
+            app:value="@string/network_off"/>
+
+    </com.ktc.setting.view.custom.SettingViewContainer>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="false">
+
+    <com.ktc.setting.view.custom.SettingViewContainer
+        android:id="@+id/log_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="173dp">
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/log_upload_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_centerHorizontal="true"
+            app:title="@string/str_others_log_upload"/>
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/log_locale_collect_btn"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="@dimen/normalViewHeight"
+            android:layout_below="@id/log_upload_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6.7dp"
+            app:title="@string/str_others_log_locale_collect"/>
+    </com.ktc.setting.view.custom.SettingViewContainer>
+</RelativeLayout>

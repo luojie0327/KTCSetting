@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeMainNormal">28sp</dimen>
+    <dimen name="textSizeMainSelect">32sp</dimen>
+    <dimen name="textSizeSettingViewNormal">24sp</dimen>
+    <dimen name="textSizeProxy">21sp</dimen>
+    <dimen name="borderWidth">10dp</dimen>
+    <dimen name="marginStartSettingTitleWithIcon">7dp</dimen>
+    <dimen name="marginStartSettingTitleNoIcon">40dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="picker_margin">5dp</dimen>
+    <dimen name="date_time_title_text_size">32dp</dimen>
+    <dimen name="date_time_title_top_margin">208dp</dimen>
+    <dimen name="space_recycler_item">2dp</dimen>
+
+    <dimen name="normalViewWidth">667dp</dimen>
+    <dimen name="normalViewHeight">67dp</dimen>
+
+    <dimen name="dimen_common_margin">16dp</dimen>
+    <dimen name="dimen_home_title_height">75dp</dimen>
+</resources>

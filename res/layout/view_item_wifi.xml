@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wifi_item_container"
+    android:layout_width="@dimen/normalViewWidth"
+    android:layout_height="66dp"
+    android:background="@drawable/setting_view_bg_normal"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/lock_icon"
+        android:layout_width="28dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="40dp"/>
+
+    <TextView
+        android:id="@+id/wifi_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:layout_toEndOf="@id/lock_icon"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:gravity="center"
+        android:maxWidth="350dp"
+        android:singleLine="true"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="@dimen/textSizeSettingViewNormal"/>
+
+    <TextView
+        android:id="@+id/wifi_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="40dp"
+        android:gravity="center"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="@dimen/textSizeSettingViewNormal"/>
+</RelativeLayout>

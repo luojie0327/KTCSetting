@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="533dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:id="@+id/dialog_connect_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:lineSpacingExtra="10dp"
+        android:text="@string/str_others_bluetooth_disconnect_title"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="28sp"/>
+
+    <ImageView
+        android:id="@+id/dialog_connect_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_connect_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/gradient_vertical"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_connect_divider"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialog_connect_cancel_btn"
+            style="@style/ButtonStyle"
+            android:layout_width="153dp"
+            android:layout_height="67dp"
+            android:text="@string/str_others_bluetooth_disconnect_cancel"/>
+
+        <Button
+            android:id="@+id/dialog_connect_ok_btn"
+            style="@style/ButtonStyle"
+            android:layout_width="153dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="67dp"
+            android:text="@string/str_others_bluetooth_disconnect_ok"/>
+    </LinearLayout>
+</RelativeLayout>

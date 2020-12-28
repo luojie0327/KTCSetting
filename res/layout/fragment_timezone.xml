@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <com.ktc.setting.view.custom.PickerView
+        android:id="@+id/timezone_picker"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginTop="200dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:dividerHeight="172"
+        app:dividerNumberDrawable="@drawable/gradient_vertical"
+        app:dividerWidth="621"
+        app:isLineTwo="true"
+        app:lineHeight1="180"
+        app:lineHeight2="110"
+        app:lineHeight3="110"
+        app:textAlpha1="255"
+        app:textAlpha2="255"
+        app:textAlpha3="127.5"
+        app:textSize1="50"
+        app:textSize2="36"
+        app:textSize3="24"
+        app:textSize4="20"
+        />
+</RelativeLayout>

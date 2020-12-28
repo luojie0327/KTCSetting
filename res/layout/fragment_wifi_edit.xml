@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false">
+
+        <TextView
+            android:id="@+id/edit_ethernet_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="140dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/colorTextNormal"
+            android:textSize="32sp"/>
+
+        <ImageView
+            android:id="@+id/split_line"
+            android:layout_width="414dp"
+            android:layout_height="5dp"
+            android:layout_below="@+id/edit_ethernet_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/gradient_line"/>
+
+        <com.ktc.setting.view.custom.SettingViewContainer
+            android:id="@+id/edit_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/split_line"
+            android:layout_marginTop="26dp"
+            app:duration="100"
+            app:focusBg="@drawable/default_focus">
+
+            <com.ktc.setting.view.custom.SwitchSettingView
+                android:id="@+id/edit_wifi_switch"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="51dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="3px"
+                app:bg="@color/colorTransparent"
+                app:title="@string/network_hdcp_title"
+                app:value="@array/switch_array"
+                android:visibility="gone"/>
+
+            <com.ktc.setting.view.custom.IpInputView
+                android:id="@+id/edit_ip"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="51dp"
+                android:layout_below="@+id/edit_wifi_switch"
+                android:layout_centerHorizontal="true"
+                android:elevation="3px"
+                app:title="@string/network_ip_title"/>
+
+            <com.ktc.setting.view.custom.IpInputView
+                android:id="@+id/edit_subnet"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="51dp"
+                android:layout_below="@+id/edit_ip"
+                android:layout_centerHorizontal="true"
+                android:elevation="3px"
+                app:title="@string/network_subnet_title"/>
+
+            <com.ktc.setting.view.custom.IpInputView
+                android:id="@+id/edit_gateway"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="51dp"
+                android:layout_below="@+id/edit_subnet"
+                android:layout_centerHorizontal="true"
+                android:elevation="3px"
+                app:title="@string/network_gateway_title"/>
+
+            <com.ktc.setting.view.custom.IpInputView
+                android:id="@+id/edit_dns1"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="51dp"
+                android:layout_below="@+id/edit_gateway"
+                android:layout_centerHorizontal="true"
+                android:elevation="3px"
+                app:title="@string/network_dns1"/>
+
+            <com.ktc.setting.view.custom.IpInputView
+                android:id="@+id/edit_dns2"
+                android:layout_width="@dimen/normalViewWidth"
+                android:layout_height="51dp"
+                android:layout_below="@+id/edit_dns1"
+                android:layout_centerHorizontal="true"
+                android:elevation="3px"
+                app:title="@string/network_dns2"/>
+        </com.ktc.setting.view.custom.SettingViewContainer>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_container"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_connect"
+                style="@style/ButtonStyle"
+                android:layout_width="220dp"
+                android:layout_height="73dp"
+                android:text="@string/network_connect"/>
+
+            <Button
+                android:id="@+id/button_disconnect"
+                style="@style/ButtonStyle"
+                android:layout_width="220dp"
+                android:layout_height="73dp"
+                android:layout_marginStart="53dp"
+                android:layout_marginEnd="53dp"
+                android:text="@string/network_disconnect"/>
+
+            <Button
+                android:id="@+id/button_forget"
+                style="@style/ButtonStyle"
+                android:layout_width="220dp"
+                android:layout_height="73dp"
+                android:text="@string/network_forget"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

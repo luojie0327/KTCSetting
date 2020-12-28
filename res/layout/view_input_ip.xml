@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ip_edit_text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:gravity="center"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="@dimen/textSizeSettingViewNormal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp">
+
+        <com.ktc.setting.view.custom.IpEditText
+            android:id="@+id/ip_input_1"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center"
+            android:imeOptions="actionNext|flagNoExtractUi|flagNoFullscreen"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="@color/colorTextNormal"
+            android:textColorHint="@color/gray"
+            android:textCursorDrawable="@null"
+            android:textColorHighlight="@color/colorTextHighlight"
+            android:textSize="@dimen/textSizeSettingViewNormal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="."
+            android:textColor="@color/colorTextNormal"
+            android:textSize="@dimen/textSizeSettingViewNormal"/>
+
+        <com.ktc.setting.view.custom.IpEditText
+            android:id="@+id/ip_input_2"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center"
+            android:imeOptions="actionNext|flagNoExtractUi|flagNoFullscreen"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="@color/colorTextNormal"
+            android:textColorHint="@color/gray"
+            android:textCursorDrawable="@null"
+            android:textColorHighlight="@color/colorTextHighlight"
+            android:textSize="@dimen/textSizeSettingViewNormal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="."
+            android:textColor="@color/colorTextNormal"
+            android:textSize="@dimen/textSizeSettingViewNormal"/>
+
+        <com.ktc.setting.view.custom.IpEditText
+            android:id="@+id/ip_input_3"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center"
+            android:imeOptions="actionNext|flagNoExtractUi|flagNoFullscreen"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="@color/colorTextNormal"
+            android:textColorHint="@color/gray"
+            android:textCursorDrawable="@null"
+            android:textColorHighlight="@color/colorTextHighlight"
+            android:textSize="@dimen/textSizeSettingViewNormal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="."
+            android:textColor="@color/colorTextNormal"
+            android:textSize="@dimen/textSizeSettingViewNormal"/>
+
+        <com.ktc.setting.view.custom.IpEditText
+            android:id="@+id/ip_input_4"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center"
+            android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColor="@color/colorTextNormal"
+            android:textColorHint="@color/gray"
+            android:textCursorDrawable="@null"
+            android:textColorHighlight="@color/colorTextHighlight"
+            android:textSize="@dimen/textSizeSettingViewNormal"/>
+    </LinearLayout>
+</RelativeLayout>

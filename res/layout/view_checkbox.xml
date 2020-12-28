@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/pop_item_bg">
+
+    <TextView
+        android:id="@+id/mCbNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:gravity="center"
+        android:paddingLeft="@dimen/dimen_common_margin"
+        android:text="default"
+        android:textColor="@android:color/white"/>
+
+    <Switch
+        android:id="@+id/mStatusSw"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dimen_common_margin"
+        android:focusable="false"/>
+</RelativeLayout>

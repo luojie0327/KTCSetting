@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+    </style>
+
+    <style name="EditStyle">
+        <item name="colorControlNormal">@color/colorTextNormal</item>
+        <item name="colorControlActivated">@color/colorTextNormal</item>
+        <item name="android:textColorHighlight">@color/colorTextHighlight</item>
+    </style>
+
+    <style name="MyDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="ButtonStyle" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/textSizeSettingViewNormal</item>
+        <item name="android:textColor">@color/colorTextNormal</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="popwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popwindow_anim_enter</item>
+        <item name="android:windowExitAnimation">@anim/popwindow_anim_exit</item>
+    </style>
+
+    <style name="ThemeDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="KEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/color_et_normal</item>
+        <item name="colorControlActivated">@color/color_et_focus</item>
+    </style>
+
+    <style name="LoadDialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否启用标题栏 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    
+    <style name="FallbackHome" parent="@android:style/Theme.Material.Wallpaper.NoTitleBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

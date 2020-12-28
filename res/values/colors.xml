@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorBackground">#29456e</color>
+    <color name="colorTextNormal">#fff</color>
+    <color name="colorTextHighlight">#649bea</color>
+
+    <color name="colorMainViewBackgroundNormal">#333f71b8</color>
+    <color name="colorMainViewBackgroundSelect">#3f71b8</color>
+    <color name="colorMainViewTextBackgroundNormal">#33ffffff</color>
+    <color name="colorMainViewTextBackgroundSelect">#fff</color>
+    <color name="colorMainViewTextNormal">#80ffffff</color>
+    <color name="colorMainViewTextSelect">#3f71b8</color>
+
+    <color name="colorSecond">#33559bff</color>
+    <color name="colorPrimary">#29456e</color>
+    <color name="gray">#8a8a8a</color>
+
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="dialog_background">#3F71B8</color>
+    <color name="setting_background_color">#33559bff</color>
+    <!-- -->
+    <color name="color_common_bg">#18354a</color>
+    <color name="color_component_bg">#375d78</color>
+
+    <color name="color_et_focus">#00aaff</color>
+    <color name="color_et_normal">#6b828f</color>
+</resources>

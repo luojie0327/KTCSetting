@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- common -->
+    <string-array name="switch_array">
+        <item>关</item>
+        <item>开</item>
+    </string-array>
+    <string-array name="str_array_common_switch">
+        <item>开</item>
+        <item>关</item>
+    </string-array>
+    <!-- network -->
+    <string-array name="security_type">
+        <item>无</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+
+    <string-array name="security_type_add">
+        <item>无</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+    </string-array>
+
+    <string-array name="hotpot_security_type">
+        <item>无</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+
+    <!-- universal -->
+    <string-array name="str_array_time_format">
+        <item>1970&#45;12&#45;31</item>
+        <item>12&#45;31&#45;1970</item>
+        <item>31&#45;12&#45;1970</item>
+    </string-array>
+
+    <string-array name="str_array_date_format">
+        <item>yyyy-mm-dd</item>
+        <item>mm-dd-yyyy</item>
+        <item>dd-mm-yyyy</item>
+    </string-array>
+
+    <string-array name="str_array_data_time_auto">
+        <item>网络</item>
+        <item>关</item>
+    </string-array>
+
+    <!-- restore -->
+
+
+    <!-- about -->
+
+
+    <!-- other -->
+</resources>

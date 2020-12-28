@@ -1,0 +1,361 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Setting</string>
+
+    <string name="title_main">Setting</string>
+    <string name="title_network">Network</string>
+    <string name="title_universal">Universal</string>
+    <string name="title_restore">Restore</string>
+    <string name="title_other">Other</string>
+    <string name="title_about">About</string>
+    <string name="title_language">Language</string>
+
+
+    <!-- common -->
+    <string name="str_cancel">Cancel</string>
+    <string name="str_ok">OK</string>
+
+
+    <!-- network -->
+    <string name="title_wifi">Wi-Fi</string>
+    <string name="title_ethernet">Ethernet</string>
+    <string name="title_hotpot">Portable Hotspot</string>
+    <string name="title_add_wifi">Add Wi-Fi</string>
+
+    <string name="network_on">On</string>
+    <string name="network_off">Off</string>
+    <string name="network_connected">Connected</string>
+    <string name="network_connecting">Connecting</string>
+    <string name="network_not_connected">Not Connected</string>
+    <string name="network_disconnected">Disconnected</string>
+    <string name="network_saved">Saved</string>
+
+    <string name="title_password">Input Password:</string>
+    <string name="network_connect">Connect</string>
+    <string name="network_save">Save</string>
+    <string name="network_disconnect">Disconnect</string>
+    <string name="network_forget">Forget</string>
+    <string name="network_connect_to">Connect to %s</string>
+    <string name="network_delete">Delete</string>
+    <string name="network_clear">Clear</string>
+
+    <string name="network_hdcp_title">Manual Settings</string>
+    <string name="network_ip_title">IP Address:</string>
+    <string name="network_gateway_title">Gateway:</string>
+    <string name="network_subnet_title">Subnet Mask:</string>
+    <string name="network_dns1">DNS1:</string>
+    <string name="network_dns2">DNS2:</string>
+
+    <string name="network_wifi_result_error">Unknown error</string>
+    <string name="network_wifi_result_timeout">Connection timeout</string>
+    <string name="network_wifi_result_authentic_fail">Authentication failed</string>
+    <string name="network_wifi_result_reject">Connection refused</string>
+    <string name="network_wifi_result_fail">Connection fail</string>
+    <string name="network_wifi_pw_error">Wrong password</string>
+
+    <string name="network_invalid_input">Invalid Input</string>
+
+    <string name="network_title_name">Name:</string>
+    <string name="network_title_type">Type:</string>
+
+    <string name="title_auto_connect">Auto Connect</string>
+    <string name="title_connect_manually">Connect Manually</string>
+    <string name="network_ethernet_not_available">Ethernet not available</string>
+    <string name="title_proxy">Proxy</string>
+    <string name="title_ip_setting">IP Setting</string>
+    <string name="title_proxy_config">Proxy Configuration</string>
+    <string name="title_proxy_host">Host</string>
+    <string name="title_proxy_port">Port</string>
+    <string name="title_bypass">Bypass Domain List</string>
+    <string name="title_add_domain">Add Domain</string>
+    <string name="title_edit_domain">Edit Domain</string>
+    <string name="title_domain">Domain:</string>
+
+    <string name="title_hotpot_setting">Hotspot Settings</string>
+    <string name="title_hotpot_name">Network Name:</string>
+    <string name="title_security_type">Security</string>
+
+
+    <!-- universal -->
+    <string name="str_universal_device_name">Device Name</string>
+    <string name="str_universal_device_name_default">Smart_TV</string>
+    <string name="str_universal_device_name_save">Save</string>
+    <string name="str_universal_device_name_edit_tips">Please open WiFi!</string>
+    <string name="str_universal_device_name_title">Edit Device Name</string>
+    <string name="str_universal_device_name_save_success">Save device name successfully!</string>
+    <string name="str_universal_device_name_save_failed">Save device name failed!</string>
+    <string name="str_universal_device_name_empty">The device name cannot be empty!</string>
+    <string name="str_universal_time">Time</string>
+    <string name="str_universal_language">Language</string>
+    <string name="str_universal_language_title">Language Setting</string>
+    <string name="str_universal_security">Security</string>
+    <string name="str_universal_inputmethod">Input Method</string>
+    <string name="str_universal_storage">Storage</string>
+    <string name="str_universal_storage_default">Removable Disk</string>
+    <string name="str_universal_storage_title">Storage Space</string>
+    <string name="str_universal_storage_internal">Internal Storage</string>
+    <string name="str_universal_storage_free">Free</string>
+    <string name="str_universal_time_auto">Automatic Date &amp; time</string>
+    <string name="str_universal_timezone">Timezone Setting</string>
+    <string name="str_universal_time_setting">Time Setting</string>
+    <string name="str_universal_time_date_format">Date format</string>
+    <string name="str_universal_time_time_24h">Use 24-hour format</string>
+    <string name="str_about_legal_license">Open Source License</string>
+    <string name="str_universal_storage_format">Format</string>
+    <string name="str_universal_storage_format_success">Format successfully!</string>
+    <string name="str_universal_storage_format_fail">formatting failed!</string>
+    <string name="str_universal_storage_format_select_tips">Select the disk you want to format!</string>
+
+    <string name="str_universal_date_time_year">Year</string>
+    <string name="str_universal_date_time_month">Month</string>
+    <string name="str_universal_date_time_day">Day</string>
+    <string name="str_universal_date_time_hour">Hour</string>
+    <string name="str_universal_date_time_minute">Minute</string>
+    <string name="time_zone_gmt">GMT</string>
+    <string name="str_universal_select_tip">Press \"OK\" to confirm select</string>
+    <string name="str_universal_fomatting">Disk Formatting...</string>
+    <string name="str_universal_language_ok">Save successfully</string>
+
+    <!-- update -->
+    <string name="str_update_restore">System Restore</string>
+    <string name="str_update_network_upgrade">Online Update</string>
+    <string name="str_update_locale_upgrade">Local Update</string>
+    <string name="str_update_restore_tip_title">Are you sure to restore system?</string>
+    <string name="str_update_restore_tip_content">All system data will be erased and restored to factory default!</string>
+    <string name="str_update_restore_now">Restore Now</string>
+    <string name="str_update_restore_content">Restoring&#8230;</string>
+    <string name="str_update_locale_tip_title">Please insert the USB storage device which has the correct firmware file in it, and select “YES” for upgrade.</string>
+    <string name="str_update_file_not_found">File not found!</string>
+    <string name="str_usb_device_not_found">Device not found! Please insert an USB device!</string>
+    <string name="str_password_input_title">Input Password</string>
+    <string name="str_password_input_sub_title">Password</string>
+    <string name="str_password_input_ok">Yes</string>
+    <string name="str_password_input_cancel">No</string>
+    <string name="str_password_input_clear">Clear</string>
+    <string name="str_password_error_tip">Please input correct password!</string>
+
+    <!-- about -->
+    <string name="str_about_device_info_title">Device Info</string>
+    <string name="str_about_device_name">Device Name</string>
+    <string name="str_about_device_model">Device Model</string>
+    <string name="str_about_device_ddr_info">DDR Info</string>
+    <string name="str_about_device_android_version">Android Version</string>
+	<string name="str_about_device_ota_version">Version</string>
+    <string name="str_about_device_system_version">System Version</string>
+    <string name="str_about_device_update_time">Last Updated Date</string>
+    <string name="str_about_network_info_title">MAC Address</string>
+    <string name="str_about_others_title">Other</string>
+    <string name="str_about_license">Software OpenSource License</string>
+    <string name="str_about_license_activity_unavailable">Software openSource license is not available</string>
+
+    <!-- other -->
+    <string name="str_others_bluetooth_title">Bluetooth</string>
+    <string name="str_others_bluetooth_paired_title">Paired Devices</string>
+    <string name="str_others_bluetooth_paired_connect">Connected</string>
+    <string name="str_others_bluetooth_paired_disconnect">Not Connected</string>
+    <string name="str_others_bluetooth_paired_connecting">Connecting</string>
+    <string name="str_others_bluetooth_disconnect_title">Do you want to disconnect from this device? Your device will disconnect from the device…</string>
+    <string name="str_others_bluetooth_disconnect_cancel">Cancel</string>
+    <string name="str_others_bluetooth_disconnect_ok">OK</string>
+    <string name="str_others_bluetooth_connect_title">Do you want to connect to this device? Your device will request a connection to that device…</string>
+    <string name="str_others_bluetooth_connect_cancel">Unpair</string>
+    <string name="str_others_bluetooth_connect_ok">Connect</string>
+    <string name="str_others_bluetooth_pair_title">Connect to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="str_others_bluetooth_pair_content">Pair Code\n<xliff:g id="device_code">%1$s</xliff:g>\nAllows access to address book and call logs\nAllows access to media audio\n…</string>
+    <string name="str_others_bluetooth_pair_ok">Pair</string>
+    <string name="str_others_bluetooth_pair_cancel">Cancel</string>
+    <string name="str_others_bluetooth_can_pair_title">Available Devices</string>
+    <string name="str_others_bluetooth_device_name_default">Unknown Device</string>
+    <string name="str_others_bluetooth_scan">Scan</string>
+    <string name="str_others_bluetooth_bound_success">Bound Successful</string>
+    <string name="str_others_bluetooth_bound_fail">Bound Failed</string>
+    <string name="str_others_bluetooth_pairing_pin_error_message">Unable to pair with <xliff:g id="device_name">%1$s</xliff:g> due to incorrect pin code or key</string>
+    <string name="str_others_bluetooth_unbound_success">Unbound Successful</string>
+    <string name="str_others_bluetooth_enable_tips">Bluetooth is opening</string>
+    <string name="str_others_bluetooth_scan_tips">Bluetooth is scaning</string>
+    <string name="str_others_tts_title">TTS</string>
+    <string name="str_others_tts_language">Language</string>
+    <string name="str_others_tts_speak_tv">Speech Output</string>
+    <string name="str_others_account_title">Account</string>
+    <string name="str_others_account_remove_tip">Please select the account you want to remove!</string>
+    <string name="str_others_account_remove_fail">Failed to remove account!</string>
+    <string name="str_others_system_sound_title">System Sound</string>
+    <string name="str_others_log_title">Log Collection</string>
+    <string name="str_others_reboot_title">Reboot Device</string>
+    <string name="str_others_reboot_tip_title">Are you sure to restart the device immediately?</string>
+    <string name="str_others_reboot_tip_text">Reboot</string>
+    <string name="str_others_log_upload">Log Network Upload</string>
+    <string name="str_others_log_locale_collect">Log Local Collection</string>
+    <string name="str_others_account_delete">Delete</string>
+    <string name="str_others_no_account">The account list is empty.</string>
+
+    <!-- DebugHelper -->
+    <string name="str_splash_company" translatable="false">KTC</string>
+    <string name="str_splash_title" translatable="false">开发调试助手</string>
+    <string name="str_splash_sign" translatable="false">\@智能软件部主导设计开发</string>
+
+    <string name="str_home_title" translatable="false">KTC开发调试助手</string>
+    <string name="str_home_about" translatable="false">关于</string>
+    <string name="str_home_about_title" translatable="false">About Me</string>
+    <string name="str_about_desc" translatable="false"> 开发者：智能软件部 </string>
+
+    <string name="str_debug_title" translatable="false">调试相关</string>
+    <string name="str_debug_show_ui_border" translatable="false">显示Ui布局边界</string>
+    <string name="str_debug_show_gpu_draw" translatable="false">显示GUP过度绘制</string>
+    <string name="str_debug_show_surface_update" translatable="false">显示界面刷新</string>
+    <string name="str_debug_force_rtl" translatable="false">强制布局显示从右向左</string>
+    <string name="str_debug_usb_debug" translatable="false">USB调试</string>
+    <string name="str_debug_force_gpu_shader" translatable="false">强制GPU渲染</string>
+    <string name="str_debug_show_gpu_update" translatable="false">显示GPU视图更新</string>
+    <string name="str_debug_show_hardware_layer" translatable="false">显示硬件层</string>
+
+    <string name="str_base_soft_info" translatable="false">软件信息</string>
+    <string name="str_base_dialog_exit" translatable="false">关闭</string>
+    <string name="str_base_soft_anversion" translatable="false">Android版本</string>
+    <string name="str_base_soft_mmVersion" translatable="false">MM版本</string>
+    <string name="str_base_soft_kernelVersion" translatable="false">Kernel版本</string>
+    <string name="str_base_soft_mBootVersion" translatable="false">Mboot版本</string>
+    <string name="str_base_soft_superNovaVersion" translatable="false">Supernova版本</string>
+    <string name="str_base_soft_compileDate" translatable="false">编译日期</string>
+    <string name="str_base_soft_romSpace" translatable="false">机身存储</string>
+    <string name="str_base_soft_macAddress" translatable="false">MAC地址</string>
+
+    <string name="str_base_buildprop_title" translatable="false">Build.Prop解析</string>
+
+    <string name="str_base_ota" translatable="false">OTA升级信息</string>
+    <!-- ota 属性 -->
+    <string name="str_ota_model" translatable="false">Model</string>
+    <string name="str_ota_customer" translatable="false">Customer</string>
+    <string name="str_ota_sp_board_type" translatable="false">Type</string>
+    <string name="str_ota_board_type" translatable="false">Ota_Type</string>
+    <string name="str_ota_sys_language" translatable="false">Language</string>
+    <string name="str_ota_sys_timezone" translatable="false">Timezone</string>
+    <string name="str_ota_board_reserved" translatable="false">Reserved</string>
+    <string name="str_ota_board_memory" translatable="false">Memory</string>
+    <string name="str_ota_lcd_density" translatable="false">Density</string>
+    <string name="str_ota_version" translatable="false">Version</string>
+    <string name="str_ota_num" translatable="false">SDA</string>
+    <string name="str_ota_mac" translatable="false">MAC</string>
+    <string name="str_ota_device" translatable="false">Device</string>
+    <string name="str_ota_supernova" translatable="false">Supernova</string>
+    <string name="str_ota_model_pre" translatable="false">&#040;ktc.ota.model&#041;</string>
+    <string name="str_ota_customer_pre" translatable="false">&#040;ktc.ota.customer&#041;</string>
+    <string name="str_ota_sp_board_type_pre" translatable="false">&#040;ktc.board.type&#041;</string>
+    <string name="str_ota_board_type_pre" translatable="false">&#040;ktc.sn.ota.board.type&#041;</string>
+    <string name="str_ota_sys_language_pre" translatable="false">&#040;persist.sys.language&#041;</string>
+    <string name="str_ota_sys_timezone_pre" translatable="false">&#040;persist.sys.timezone&#041;</string>
+    <string name="str_ota_board_reserved_pre" translatable="false">&#040;ktc.board.reserved&#041;</string>
+    <string name="str_ota_board_memory_pre" translatable="false">&#040;ktc.board.memory&#041;</string>
+    <string name="str_ota_lcd_density_pre" translatable="false">&#040;ro.sf.lcd_density&#041;</string>
+    <string name="str_ota_version_pre" translatable="false">&#040;ro.product.version&#041;</string>
+    <string name="str_ota_num_pre" translatable="false">&#040;PRODUCT_SDA_NO&#041;</string>
+    <string name="str_ota_mac_pre" translatable="false">&#040;ethaddr&#041;</string>
+    <string name="str_ota_proper" translatable="false">属性:</string>
+    <string name="str_ota_proper_notice" translatable="false">属性说明:</string>
+    <string name="str_ota_proper_values" translatable="false">属性值:</string>
+    <string name="str_ota_model_note" translatable="false">方案+制式</string>
+    <string name="str_ota_customer_note" translatable="false">客户+flash</string>
+    <string name="str_ota_sp_board_type_note" translatable="false">版型</string>
+    <string name="str_ota_board_type_note" translatable="false">区分硬件</string>
+    <string name="str_ota_sys_language_note" translatable="false">语言</string>
+    <string name="str_ota_sys_timezone_note" translatable="false">城市</string>
+    <string name="str_ota_board_reserved_note" translatable="false">保留字段</string>
+    <string name="str_ota_board_memory_note" translatable="false">内存</string>
+    <string name="str_ota_lcd_density_note" translatable="false">屏幕密度</string>
+    <string name="str_ota_version_note" translatable="false">版本</string>
+    <string name="str_ota_num_note" translatable="false">SDA号</string>
+    <string name="str_ota_mac_note" translatable="false">MAC地址</string>
+
+
+    <string name="str_base_hardware_info" translatable="false">硬件信息</string>
+    <string name="str_base_hardware_board" translatable="false">主板方案</string>
+    <string name="str_base_hardware_chip" translatable="false">芯片信息</string>
+    <string name="str_base_hardware_ram" translatable="false">RAM空间</string>
+    <string name="str_base_hardware_cpu_core_count" translatable="false">CPU核数</string>
+    <string name="str_base_hardware_cpu_bit_count" translatable="false">CPU位数</string>
+    <string name="str_base_hardware_cpu_type" translatable="false">CPU型号</string>
+
+    <string name="str_base_screen_info" translatable="false">屏幕信息</string>
+    <string name="str_base_screen_number" translatable="false">屏型号</string>
+    <string name="str_base_screen_density" translatable="false">密度</string>
+    <string name="str_base_screen_density_osd" translatable="false">OSD分辨率</string>
+    <string name="str_base_screen_density_physical" translatable="false">物理分辨率</string>
+
+    <string name="str_base_language" translatable="false">语言设置</string>
+
+    <string name="str_base_network" translatable="false">网络设置</string>
+    <string name="str_network_setting" translatable="false">打开网络设置</string>
+    <string name="str_network_type" translatable="false">网络类型</string>
+    <string name="str_network_name" translatable="false">网络名称</string>
+    <string name="str_network_proxy" translatable="false">网络代理</string>
+    <string name="str_network_mode" translatable="false">网络模式</string>
+    <string name="str_network_status" translatable="false">状态</string>
+    <string name="str_network_ip" translatable="false">IP地址</string>
+    <string name="str_network_mask" translatable="false">子网掩码</string>
+    <string name="str_network_gateway" translatable="false">网关</string>
+    <string name="str_network_dns1" translatable="false">DNS1</string>
+    <string name="str_network_dns2" translatable="false">DNS2</string>
+    <string name="str_network_mac" translatable="false">MAC地址</string>
+
+    <!-- Label for action to not use a proxy for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_proxy_none" translatable="false">None</string>
+    <!-- Label for action to setup a proxy for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_proxy_manual" translatable="false">Manual</string>
+    <!-- Label for action to use dhcp to obtain an ip address for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_dhcp" translatable="false">DHCP</string>
+    <!-- Label for action to setup static ip information for the wifi connection [CHAR LIMIT=50] -->
+    <string name="wifi_action_static" translatable="false">Static</string>
+    <string name="wifi_action_connected" translatable="false">已连接</string>
+    <string name="wifi_action_none_connected" translatable="false">暂未连接</string>
+
+    <string name="str_other_upgrade_title" translatable="false">固件升级</string>
+    <string name="str_upgrade" translatable="false">立即升级</string>
+    <string name="str_upgrade_tip_no_usb" translatable="false">请确认U盘正确插入</string>
+
+    <string name="str_other_mac_edit_title" translatable="false">MAC编辑</string>
+    <string name="str_base_dialog_sure" translatable="false">确定</string>
+    <string name="str_mac_edit_last" translatable="false">当前MAC地址：</string>
+    <string name="str_mac_edit_input" translatable="false">请输入新的MAC地址：</string>
+    <string name="str_mac_edit_sure" translatable="false">更新 MAC</string>
+
+    <string name="str_other_serial_title" translatable="false">序列号编辑</string>
+    <string name="str_serial_edit_last" translatable="false">当前序列号：</string>
+    <string name="str_serial_edit_input" translatable="false">请输入新的序列号：</string>
+
+    <string name="str_other_logcat" translatable="false">Logcat抓取</string>
+    <string name="str_logcat_start" translatable="false">开始抓取Log</string>
+    <string name="str_logcat_end" translatable="false">结束抓取Log</string>
+    <string name="str_logcat_tip_start" translatable="false">点击下方按钮开始抓取Log</string>
+    <string name="str_logcat_tip_end" translatable="false">点击下方按钮结束抓取Log</string>
+    <string name="str_logcat_tip_usb" translatable="false">请确保正确的插入U盘</string>
+    <string name="str_logcat_tip_to_us" translatable="false">Finishing log, it will be automatically saved to USB, then please send KtcLogReport.zip to us, Thanks!</string>
+
+    <!-- for floatinfo -->
+    <string name="str_other_debug_window" translatable="false">开启调试悬浮窗</string>
+
+    <string name="str_float_cpu_title" translatable="false">CPU Real-time Display:</string>
+    <string name="str_float_mem_title" translatable="false">RAM Real-time Display:</string>
+    <string name="str_float_task_title" translatable="false">Tasks Real-time Display:</string>
+
+    <string name="str_start">Start</string>
+    <string name="str_stop">Stop</string>
+
+    <!-- radio group -->
+    <string name="str_txt_radio_title">Log save path:</string>
+    <string name="str_txt_radio_usb">USB</string>
+    <string name="str_txt_radio_data">Data partition</string>
+
+    <!-- tip info -->
+    <string name="str_tip_start">Click "Start" and start the log capture automatically after 3 seconds.</string>
+    <string name="str_tip_doing">The log is being collected. Clicking "Stop" will automatically end the log collection!</string>
+
+    <string name="str_tip_usb_finish">Complete the log, it will be automatically saved to the USB/KtcLogReport/KtcTvLog.log, thank you!</string>
+    <string name="str_tip_data_finish">Complete the log, it will be automatically saved to /data/user/0/com.ktc.setting/files/KtcTvLog.log, thank you!</string>
+
+
+    <!-- floatinfo -->
+    <string name="str_float_log_size">log size:</string>
+
+    <string name="str_other_serial_port" translatable="false">串口调试</string>
+	<string name="str_network_security_type">None</string>
+</resources>

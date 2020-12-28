@@ -1,0 +1,210 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<string name="app_name">设置</string>
+
+    <string name="title_main">设置</string>
+    <string name="title_network">网络与连接</string>
+    <string name="title_universal">通用设置</string>
+    <string name="title_restore">升级与还原</string>
+    <string name="title_other">其它</string>
+    <string name="title_about">关于本机</string>
+    <string name="title_language">语言</string>
+
+    <!-- common -->
+    <string name="str_cancel">取消</string>
+    <string name="str_ok">确定</string>
+
+
+    <!-- network -->
+    <string name="title_wifi">无线网络</string>
+    <string name="title_ethernet">有线网络</string>
+    <string name="title_hotpot">无线热点</string>
+    <string name="title_add_wifi">新增网络</string>
+
+    <string name="network_on">已开启</string>
+    <string name="network_off">已关闭</string>
+    <string name="network_connected">已连接</string>
+    <string name="network_connecting">连接中</string>
+    <string name="network_not_connected">未连接</string>
+    <string name="network_disconnected">已断开</string>
+    <string name="network_saved">已保存</string>
+
+    <string name="title_password">输入密码:</string>
+    <string name="network_connect">连接</string>
+    <string name="network_save">保存</string>
+    <string name="network_disconnect">断开连接</string>
+    <string name="network_forget">忘记网络</string>
+    <string name="network_connect_to">连接至%s</string>
+    <string name="network_delete">删除</string>
+    <string name="network_clear">清除</string>
+
+    <string name="network_hdcp_title">手动设置</string>
+    <string name="network_ip_title">IP地址:</string>
+    <string name="network_gateway_title">默认网关:</string>
+    <string name="network_subnet_title">子网掩码:</string>
+    <string name="network_dns1">DNS1:</string>
+    <string name="network_dns2">DNS2:</string>
+
+    <string name="network_wifi_result_error">未知错误</string>
+    <string name="network_wifi_result_timeout">连接超时</string>
+    <string name="network_wifi_result_authentic_fail">验证失败</string>
+    <string name="network_wifi_result_reject">拒绝连接</string>
+    <string name="network_wifi_result_fail">连接失败</string>
+    <string name="network_wifi_pw_error">密码错误</string>
+
+    <string name="network_invalid_input">非法输入</string>
+
+    <string name="network_title_name">名称:</string>
+    <string name="network_title_type">类型:</string>
+
+    <string name="title_auto_connect">自动连接</string>
+    <string name="title_connect_manually">手动连接</string>
+    <string name="network_ethernet_not_available">有线网络不可用</string>
+    <string name="title_proxy">代理</string>
+    <string name="title_ip_setting">IP设置</string>
+    <string name="title_proxy_config">代理配置</string>
+    <string name="title_proxy_host">代理主机名</string>
+    <string name="title_proxy_port">代理端口</string>
+    <string name="title_bypass">域名限制列表</string>
+    <string name="title_add_domain">新增域名</string>
+    <string name="title_edit_domain">域名编辑</string>
+    <string name="title_domain">域名:</string>
+
+    <string name="title_hotpot_setting">热点设置</string>
+    <string name="title_hotpot_name">网络名称:</string>
+    <string name="title_security_type">安全类型</string>
+
+
+    <!-- universal -->
+    <string name="str_universal_device_name">设备名称</string>
+    <string name="str_universal_device_name_default">客厅设备</string>
+    <string name="str_universal_device_name_save">保 存</string>
+    <string name="str_universal_device_name_edit_tips">请先打开WiFi！</string>
+    <string name="str_universal_device_name_title">设备名称编辑</string>
+    <string name="str_universal_device_name_save_success">修改设备名成功！</string>
+    <string name="str_universal_device_name_save_failed">修改设备名失败！</string>
+    <string name="str_universal_time">时间</string>
+    <string name="str_universal_language">语言</string>
+    <string name="str_universal_language_title">语言设置</string>
+    <string name="str_universal_security">安全</string>
+    <string name="str_universal_inputmethod">输入法</string>
+    <string name="str_universal_storage">存储空间</string>
+    <string name="str_universal_storage_default">可移动磁盘</string>
+    <string name="str_universal_storage_title">储存空间</string>
+    <string name="str_universal_storage_internal">内部存储</string>
+    <string name="str_universal_storage_free">Free</string>
+    <string name="str_universal_time_auto">自动确定日期和时间</string>
+    <string name="str_universal_timezone">时区设置</string>
+    <string name="str_universal_time_setting">时间设置</string>
+    <string name="str_universal_time_date_format">日期格式</string>
+    <string name="str_universal_time_time_24h">使用24小时制</string>
+    <string name="str_about_legal_license">开放源代码许可</string>
+    <string name="str_universal_storage_format">格式化</string>
+    <string name="str_universal_storage_format_success">格式化成功！</string>
+    <string name="str_universal_storage_format_fail">格式化失败！</string>
+    <string name="str_universal_storage_format_select_tips">请选择需要格式化的磁盘！</string>
+
+    <string name="str_universal_date_time_year">年</string>
+    <string name="str_universal_date_time_month">月</string>
+    <string name="str_universal_date_time_day">日</string>
+    <string name="str_universal_date_time_hour">时</string>
+    <string name="str_universal_date_time_minute">分</string>
+    <string name="time_zone_gmt">GMT</string>
+    <string name="str_universal_select_tip">按\"OK\"键确认选择</string>
+    <string name="str_universal_fomatting">磁盘格式化中...</string>
+
+    <!-- update -->
+    <string name="str_update_restore">系统还原</string>
+    <string name="str_update_network_upgrade">网络升级</string>
+    <string name="str_update_locale_upgrade">本地升级</string>
+    <string name="str_update_restore_tip_title">您确定需要重新设置系统？</string>
+    <string name="str_update_restore_tip_content">系统所有数据将被擦除恢复至出厂默认状态！</string>
+    <string name="str_update_restore_now">立即还原</string>
+    <string name="str_update_restore_content">恢复出厂设置中&#8230;</string>
+    <string name="str_update_locale_tip_title">请确定U盘中存在正确的升级文件，并按"确定"升级</string>
+    <string name="str_update_file_not_found">文件没找到!</string>
+    <string name="str_usb_device_not_found">没有找到设备！请插入USB设备！</string>
+    <string name="str_password_input_title">输入密码</string>
+    <string name="str_password_input_sub_title">密码</string>
+    <string name="str_password_input_ok">确认</string>
+    <string name="str_password_input_cancel">取消</string>
+    <string name="str_password_input_clear">清除</string>
+    <string name="str_password_error_tip">请输入正确的密码!</string>
+
+    <!-- about -->
+    <string name="str_about_device_info_title">本机信息</string>
+    <string name="str_about_device_name">本机名称</string>
+    <string name="str_about_device_model">机器型号</string>
+    <string name="str_about_device_ddr_info">DDR信息</string>
+    <string name="str_about_device_android_version">Android版本</string>
+    <string name="str_about_device_ota_version">版本</string>
+    <string name="str_about_device_system_version">系统版本</string>
+    <string name="str_about_device_update_time">更新日期</string>
+    <string name="str_about_network_info_title">MAC地址</string>
+    <string name="str_about_others_title">其他</string>
+    <string name="str_about_license">软件开源协议</string>
+    <string name="str_about_license_activity_unavailable">软件开源协议不可用</string>
+
+    <!-- other -->
+    <string name="str_others_bluetooth_title">蓝牙</string>
+    <string name="str_others_bluetooth_paired_title">已配对设备</string>
+    <string name="str_others_bluetooth_paired_connect">已连接</string>
+    <string name="str_others_bluetooth_paired_disconnect">未连接</string>
+    <string name="str_others_bluetooth_paired_connecting">连接中</string>
+    <string name="str_others_bluetooth_disconnect_title">要断开与该设备的连接吗？\n您的设备将断开和该设备的连接...</string>
+    <string name="str_others_bluetooth_disconnect_cancel">取消</string>
+    <string name="str_others_bluetooth_disconnect_ok">确定</string>
+    <string name="str_others_bluetooth_connect_title">要开始与该设备进行连接吗？\n您的设备将请求与该设备进行连接...</string>
+    <string name="str_others_bluetooth_connect_cancel">取消配对</string>
+    <string name="str_others_bluetooth_connect_ok">开始连接</string>
+    <string name="str_others_bluetooth_pair_title">要与<xliff:g id="device_name">%1$s</xliff:g>配对吗</string>
+    <string name="str_others_bluetooth_pair_content">蓝牙配对码\n<xliff:g id="device_code">%1$s</xliff:g>\n允许访问您的通讯录和通话记录\n允许访问您的媒体音频\n...</string>
+    <string name="str_others_bluetooth_pair_ok">配对</string>
+    <string name="str_others_bluetooth_pair_cancel">取消</string>
+    <string name="str_others_bluetooth_can_pair_title">可配对的设备</string>
+    <string name="str_others_bluetooth_device_name_default">未知设备</string>
+    <string name="str_others_bluetooth_scan">搜索</string>
+    <string name="str_others_bluetooth_bound_success">配对成功</string>
+    <string name="str_others_bluetooth_bound_fail">配对失败</string>
+    <string name="str_others_bluetooth_pairing_pin_error_message">由于pin码或密钥错误，无法与<xliff:g id="device_name">%1$s</xliff:g>进行配对</string>
+    <string name="str_others_bluetooth_unbound_success">解除绑定成功</string>
+    <string name="str_others_bluetooth_enable_tips">蓝牙开启中</string>
+    <string name="str_others_bluetooth_scan_tips">蓝牙扫描中</string>
+    <string name="str_others_tts_title">TTS语音服务</string>
+    <string name="str_others_tts_language">语言</string>
+    <string name="str_others_tts_speak_tv">语音输出</string>
+    <string name="str_others_account_title">账户管理</string>
+    <string name="str_others_account_remove_tip">请选择需要移除的账户！</string>
+    <string name="str_others_account_remove_fail">移除账户失败！</string>
+    <string name="str_others_system_sound_title">系统声音</string>
+    <string name="str_others_log_title">日志收集</string>
+    <string name="str_others_reboot_title">重启设备</string>
+    <string name="str_others_reboot_tip_title">您是否确定立即重启设备？</string>
+    <string name="str_others_reboot_tip_text">立即重启</string>
+    <string name="str_others_log_upload">日志网络上传</string>
+    <string name="str_others_log_locale_collect">日志本地采集</string>
+    <string name="str_others_account_delete">删 除</string>
+    <string name="str_others_no_account">账号列表为空</string>
+    <string name="str_network_security_type">None</string>
+    <string name="str_universal_language_ok">保存成功</string>
+    <string name="str_universal_device_name_empty">设备名称不能为空！</string>
+
+    <string name="str_start">开始</string>
+    <string name="str_stop">停止</string>
+
+    <!-- radio group -->
+    <string name="str_txt_radio_title">日志地址:</string>
+    <string name="str_txt_radio_usb">U盘</string>
+    <string name="str_txt_radio_data">data分区</string>
+
+    <!-- tip info -->
+    <string name="str_tip_start">点击“开始”，然后在3秒后自动开始日志抓取。</string>
+    <string name="str_tip_doing">日志正在收集中，点击“停止”将自动结束日志收集!</string>
+
+    <string name="str_tip_usb_finish">完成日志，它将自动保存到U盘/KtcLogReport/KtcTvLog.log，谢谢！</string>
+    <string name="str_tip_data_finish">完成日志，它将自动保存到/data/user/0/com.ktc.setting/files/KtcTvLog.log，谢谢！</string>
+
+
+    <!-- floatinfo -->
+    <string name="str_float_log_size">日志大小：</string>
+</resources>

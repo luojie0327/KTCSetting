@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="533dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/dialog_bg"
+        android:minHeight="287dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="53dp"
+            android:ellipsize="end"
+            android:maxWidth="500dp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/colorTextNormal"
+            android:textSize="32sp"/>
+
+        <ImageView
+            android:layout_width="414dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="23dp"
+            android:src="@drawable/gradient_line"/>
+
+        <TextView
+            android:id="@+id/dialog_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="23dp"
+            android:maxWidth="400dp"
+            android:textColor="@color/colorTextNormal"
+            android:textSize="28sp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="57dp"
+            android:layout_marginBottom="57dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dialog_button_left"
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="38dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="38dp"
+                android:paddingBottom="12dp"/>
+
+            <Button
+                android:id="@+id/dialog_button_right"
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="67dp"
+                android:paddingStart="38dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="38dp"
+                android:paddingBottom="12dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

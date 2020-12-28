@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mRowTitleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_common_margin"
+        android:text="default"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"/>
+
+    <com.ktc.debughelper.view.PredictRecyclerView
+        android:id="@+id/mRowContentRv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/dimen_common_margin"
+        android:layout_marginRight="@dimen/dimen_common_margin"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingLeft="@dimen/dimen_common_margin"
+        android:paddingTop="@dimen/dimen_common_margin"
+        android:paddingRight="@dimen/dimen_common_margin"
+        android:paddingBottom="24dp"></com.ktc.debughelper.view.PredictRecyclerView>
+</LinearLayout>

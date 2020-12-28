@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="title" format="string" />
+    <attr name="settingIcon" format="reference|integer" />
+    <attr name="value" format="string" />
+    <attr name="enable" format="boolean" />
+    <attr name="maxHeight" format="dimension" />
+
+    <declare-styleable name="MainViewItem">
+        <attr name="title" />
+        <attr name="settingIcon" />
+        <attr name="text_height" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SettingViewContainer">
+        <attr name="focusBg" format="reference|integer" />
+        <attr name="duration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ButtonSettingView">
+        <attr name="title" />
+        <attr name="settingIcon" />
+        <attr name="value" />
+        <attr name="right_arrow_visible" format="boolean" />
+        <attr name="enable" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchSettingView">
+        <attr name="title" />
+        <attr name="bg" format="reference|integer" />
+        <attr name="settingIcon" />
+        <attr name="value" />
+        <attr name="enable" />
+    </declare-styleable>
+
+    <declare-styleable name="LittleSwitchView">
+        <attr name="title" />
+        <attr name="value" />
+        <attr name="enable" />
+    </declare-styleable>
+
+    <declare-styleable name="PickerView">
+        <attr name="dividerNumberDrawable" format="reference" />
+        <attr name="lineHeight1" format="integer" />
+        <attr name="lineHeight2" format="integer" />
+        <attr name="lineHeight3" format="integer" />
+        <attr name="dividerHeight" format="integer" />
+        <attr name="dividerWidth" format="integer" />
+        <attr name="isLineTwo" format="boolean" />
+        <attr name="focusDrawable" format="reference" />
+        <attr name="textSize1" format="integer" />
+        <attr name="textSize2" format="integer" />
+        <attr name="textSize3" format="integer" />
+        <attr name="textSize4" format="integer" />
+        <attr name="textSize5" format="integer" />
+        <attr name="textAlpha1" format="float" />
+        <attr name="textAlpha2" format="float" />
+        <attr name="textAlpha3" format="float" />
+        <attr name="textAlpha4" format="float" />
+        <attr name="textAlpha5" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="SelectSettingView">
+        <attr name="selectTitle" format="string" />
+        <attr name="selectContent" format="string" />
+        <attr name="isSelect" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MaxHeightRecyclerView">
+        <attr name="maxHeight" />
+    </declare-styleable>
+
+    <declare-styleable name="MaxHeightScrollView">
+        <attr name="maxHeight" />
+    </declare-styleable>
+
+    <declare-styleable name="IpInputView">
+        <attr name="title" />
+    </declare-styleable>
+
+    <declare-styleable name="EditButton">
+        <attr name="title" />
+    </declare-styleable>
+
+    <declare-styleable name="TitleEditView">
+        <attr name="title" />
+        <attr name="enable" />
+        <attr name="passwordType" format="boolean" />
+        <attr name="showPassword" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="HomeItemView">
+        <attr name="image" format="reference" />
+        <attr name="itemTitle" format="string" />
+    </declare-styleable>
+</resources>

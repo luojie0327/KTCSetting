@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_view_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_background"
+    android:clickable="false"
+    android:focusable="false">
+
+    <TextView
+        android:id="@+id/title_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/title_background"
+        android:gravity="center_vertical"
+        android:text="@string/title_main"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="32sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <com.ktc.setting.view.custom.HomeItemView
+            android:id="@+id/main_network"
+            android:layout_width="173.3dp"
+            android:layout_height="wrap_content"
+            app:image="@drawable/icon_network"
+            app:itemTitle="@string/title_network" />
+
+        <com.ktc.setting.view.custom.HomeItemView
+            android:id="@+id/main_language"
+            android:layout_width="173.3dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_toEndOf="@id/main_network"
+            app:image="@drawable/icon_language"
+            app:itemTitle="@string/title_language" />
+
+        <com.ktc.setting.view.custom.HomeItemView
+            android:id="@+id/main_universal"
+            android:layout_width="173.3dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_toEndOf="@id/main_language"
+            app:image="@drawable/icon_uni"
+            app:itemTitle="@string/title_universal" />
+
+        <com.ktc.setting.view.custom.HomeItemView
+            android:id="@+id/main_restore"
+            android:layout_width="173.3dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_network"
+            android:layout_marginTop="25dp"
+            app:image="@drawable/icon_restore"
+            app:itemTitle="@string/title_restore" />
+
+        <com.ktc.setting.view.custom.HomeItemView
+            android:id="@+id/main_other"
+            android:layout_width="173.3dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_network"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@id/main_restore"
+            app:image="@drawable/icon_other"
+            app:itemTitle="@string/title_other" />
+
+        <com.ktc.setting.view.custom.HomeItemView
+            android:id="@+id/main_about"
+            android:layout_width="173.3dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_network"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@id/main_other"
+            app:image="@drawable/icon_about"
+            app:itemTitle="@string/title_about" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

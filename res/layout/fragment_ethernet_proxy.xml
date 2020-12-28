@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+    <com.ktc.setting.view.custom.SettingViewContainer
+        android:id="@+id/proxy_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+
+        <TextView
+            android:id="@+id/tv_proxy_config"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edit_proxy_host"
+            android:text="@string/title_proxy_config"
+            android:textColor="@color/colorTextNormal"
+            android:textSize="@dimen/textSizeSettingViewNormal"/>
+
+        <com.ktc.setting.view.custom.EditButton
+            android:id="@+id/edit_proxy_host"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="60dp"
+            android:layout_below="@id/tv_proxy_config"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:nextFocusLeft="@id/edit_proxy_host"
+            android:nextFocusRight="@id/edit_proxy_host"
+            app:title="@string/title_proxy_host"/>
+
+        <com.ktc.setting.view.custom.EditButton
+            android:id="@+id/edit_proxy_port"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="60dp"
+            android:layout_below="@id/edit_proxy_host"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:nextFocusLeft="@id/edit_proxy_port"
+            android:nextFocusRight="@id/edit_proxy_port"
+            app:title="@string/title_proxy_port"/>
+
+        <TextView
+            android:id="@+id/tv_domain_config"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_proxy_port"
+            android:layout_alignLeft="@id/edit_proxy_host"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="13dp"
+            android:elevation="2px"
+            android:text="@string/title_bypass"
+            android:textColor="@color/colorTextNormal"
+            android:textSize="@dimen/textSizeSettingViewNormal"/>
+
+        <com.ktc.setting.view.custom.MaxHeightRecyclerView
+            android:id="@+id/list_domain"
+            android:layout_width="695dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_domain_config"
+            android:layout_centerHorizontal="true"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:visibility="invisible"
+            app:maxHeight="124dp"/>
+
+
+        <com.ktc.setting.view.custom.ButtonSettingView
+            android:id="@+id/add_domain"
+            android:layout_width="@dimen/normalViewWidth"
+            android:layout_height="60dp"
+            android:layout_below="@id/list_domain"
+            android:layout_alignLeft="@id/edit_proxy_host"
+            android:nextFocusLeft="@id/add_domain"
+            android:nextFocusRight="@id/add_domain"
+            android:nextFocusDown="@+id/button_save"
+            app:settingIcon="@drawable/add_wifi"
+            app:title="@string/title_add_domain"/>
+			
+		 <Button
+            android:id="@+id/button_save"
+            style="@style/ButtonStyle"
+            android:layout_width="220dp"
+            android:layout_height="73dp"
+			android:layout_below="@id/add_domain"
+			android:layout_marginTop="33dp"
+			android:layout_marginStart="70dp"
+			android:layout_alignLeft="@id/edit_proxy_host"
+            android:text="@string/network_save"/>
+
+        <Button
+            android:id="@+id/button_clear"
+            style="@style/ButtonStyle"
+            android:layout_width="220dp"
+            android:layout_height="73dp"
+			android:layout_below="@id/add_domain"
+			android:layout_marginTop="33dp"
+			android:layout_toEndOf="@id/button_save"
+            android:layout_marginStart="40dp"
+            android:text="@string/network_clear"/>
+    </com.ktc.setting.view.custom.SettingViewContainer>
+
+   
+</LinearLayout>

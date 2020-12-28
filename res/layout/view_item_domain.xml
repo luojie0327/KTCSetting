@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wifi_item_container"
+    android:layout_width="@dimen/normalViewWidth"
+    android:layout_height="60dp"
+    android:background="@drawable/setting_view_bg_normal"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/domain_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:textColor="@color/colorTextNormal"
+        android:textSize="21sp"/>
+</RelativeLayout>
